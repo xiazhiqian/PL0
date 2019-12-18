@@ -1,0 +1,12 @@
+program main;
+var a: integer;
+procedure P1 (a:integer); 
+  begin 
+     var  b: integer;
+     b := a;
+     call write(b)   
+  end;
+begin
+  call read(a);
+  call P1(a)
+end.
